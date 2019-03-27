@@ -3,10 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Org Chart/Family Tree</title>
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <title>D3js Force Directed Chart AngularJS Directive</title>
+  		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script src="https://d3js.org/d3.v3.min.js"></script>
 
+		<link href="https://fonts.googleapis.com/css?family=Oxygen:300|Anton|Audiowide|Belleza|Bigelow+Rules|Bungee|Fanwood+Text|Frijole|Henny+Penny|Megrim|Skranji|Squada+One|Tienne|Open+Sans" rel="stylesheet">
+
+  
   
       <link rel="stylesheet" href="css/style.css">
 
@@ -15,77 +18,35 @@
 
 <body>
 
-  <div class="tree" align="center">
-<ul>
-	<li>
-	<a href="#"><img src="image/Busabong.jpg" width="110" height="110">
-คณบดี</a>
-		<ul>
-			<li><a href="#"><img src="image/Theerawat-2.jpg" width="110" height="110">รองคณบดีฝ่ายบริหาร</a>
-				<ul>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-				</ul>
-			</li>
-			<li><a href="#"><img src="image/Pansamol.jpg" width="110" height="110">รองคณบดีฝ่ายวิชาการ</a>
-				<ul>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-				</ul>
-			</li>
-			<li><a href="#"><img src="image/Thanawut.jpg" width="110" height="110">รองคณบดีฝ่ายกิจการนักศึกษา</a>
-				<ul>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-				</ul>
-			</li>
-			<li><a href="#"><img src="image/Somporn.jpg" width="110" height="110">รองคณบดีฝ่ายวิจัย</a>
-				<ul>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-				</ul>
-			</li>
-			<li><a href="#"><img src="image/Nuttida.jpg" width="110" height="110">รองคณบดีฝ่ายบัณฑิตศึกษา</a>
-				<ul>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-					<li><a href="#"><img src="http://placehold.it/25x25" alt="">Employee</img></a></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-</ul>
-	</div>
-  
-  
+  			<div ng-app="forcedirectedApp" ng-controller="forcedirectedController">
+				<div ng-init='current="simple"' class='nav'>
+					<a href ng-click='current="simple"' ng-class='current == "simple"?"active":""' >Campus</a>
+				</div>
+				<div id='simple' ng-show='current=="simple"'>
+					<forcedirected-chart
+							links="mcuSimple"
+							link_length='250'
+							width= "1000"
+							height = "1000"
+							node_size="15"
+							node_type_icon="{'Movie':'circle', 'Character':'hexagon'}"
+							link_line="bezier" />
+				</div>
+				<!-- <div id='complete' ng-show='current=="complete"'>
+					<p>Force Directed chart for the Marvel Cinematic Universe complete (for what I know today, and excluding TV  and Web Series). I hope you have a very big monitor</p>
+					<forcedirected-chart
+							links="mcuComplete"
+							link_length='200'
+							width="1000"
+							height="500"
+							node_size="18"
+							node_type_icon="{'Movie':'circle', 'Character':'hexagon'}"
+							link_line="bezier" />
+				</div> -->
+    <script  src="js/index.js"></script>
+
+
+
 
 </body>
 
