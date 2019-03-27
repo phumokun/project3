@@ -1,40 +1,29 @@
-
 body{color: #fff; background-color: #111; font-family: "Oxygen";}
 
 .forcedirected-chart .link {fill: none;  stroke: #666;  stroke-width: 2px;}
 .forcedirected-chart .link.link_Main{stroke-width: 2px}
 .forcedirected-chart .link.link_Side{stroke-width: 2px;stroke-dasharray:5, 5;}
 .forcedirected-chart .node.Character{stroke-width: 0px;}
-.forcedirected-chart .node.Movie{stroke-width: 6px; fill:#222; stroke: #bbb;}
-.forcedirected-chart .label {fill: #fff;  font-family: "Verdana";}
+.forcedirected-chart .node.Movie{stroke-width: 6px; fill:#222; stroke: rgb(128, 128, 128);}
+.forcedirected-chart .label {fill: rgb(255, 255, 255);  font-family: "Verdana";}
 .forcedirected-chart .label.Character{font-size: 32px;}
 
 
 .forcedirected-chart .source_วิทยาเขตปัตตานี.target_Prince_of_Songkla_University{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตหาดใหญ่.target_Prince_of_Songkla_University{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตภูเก็ต.target_Prince_of_Songkla_University{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตสุราษฎร์ธา.target_Prince_of_Songkla_University{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตตรัง.target_Prince_of_Songkla_University{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers_Age_of_Ultron{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers_Infinity_War{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers_Infinity_War_2{stroke: #00af3f;}
 
 
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_บัณฑิตวิทยาลัย{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะวิทยาศาสตร์{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะวิศวกรรมศาสตร์{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะทรัพยากรธรรมชาติ{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะอุตสาหกรรมเกษตร{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะการจัดการสิ่งแวดล้อม{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Iron_Man{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Iron_Man_2{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Iron_Man_3{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Age_of_Ultron{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Captain_America_Civil_War{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
-.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Iron_Man{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Iron_Man_2{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Iron_Man_3{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Avengers{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Avengers_Age_of_Ultron{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Captain_America_Civil_War{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Avengers_Infinity_War{stroke: #fe8a00;}
+.forcedirected-chart .source_Iron_Man.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
 
 .forcedirected-chart .source_Thor.target_Thor{stroke: #fd0000;}
 .forcedirected-chart .source_Thor.target_Thor_The_Dark_world{stroke: #fd0000;}
@@ -87,7 +76,7 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 
 /* characters */
 .forcedirected-chart .node.วิทยาเขตปัตตานี{ fill: #00af3f;stroke: #00af3f; }
-.forcedirected-chart .node.Character.วิทยาเขตปัตตานี{ fill: #fe8a00;stroke: #fe8a00; }
+.forcedirected-chart .node.Character.Iron_Man{ fill: #fe8a00;stroke: #fe8a00; }
 .forcedirected-chart .node.Character.Captain_America{ fill: #009ede;stroke: #009ede; }
 .forcedirected-chart .node.Character.Thor{ fill: #fd0000;stroke: #fd0000; }
 .forcedirected-chart .node.Character.Guardian_of_the_Galaxy{ fill: #f2e21e;stroke: #f2e21e; }
@@ -99,7 +88,7 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 
 
 /* movies */
-.forcedirected-chart .node.Movie.วิทยาเขตปัตตานี{stroke: #00af3f; }
+.forcedirected-chart .node.Movie.The_Incredible_Hulk{stroke: #00af3f; }
 .forcedirected-chart .node.Movie.Iron_Man{stroke: #fe8a00; }
 .forcedirected-chart .node.Movie.Iron_Man_2{stroke: #fe8a00; }
 .forcedirected-chart .node.Movie.Iron_Man_3{stroke: #fe8a00; }
@@ -131,6 +120,40 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 .forcedirected-chart .label.Character.Black_Panter{font-family: 'Tienne', cursive; }
 .forcedirected-chart .label.Character.Captain_Marvel{font-family: 'Megrim', cursive;}
 .forcedirected-chart .label.Character.SpiderMan{font-family: 'Skranji', cursive;}
+
+/* legend */
+.forcedirected-chart .forcedirected-legend{font-size: 22px;padding: 1em; clear: both; overflow: hidden; }
+.forcedirected-chart .forcedirected-legend-block{float:left; margin: 0 1em;}
+.forcedirected-chart .forcedirected-legend-block-title{font-weight: bold;font-size: 11px}
+.forcedirected-chart .forcedirected-legend-item{padding: 2px; display: inline-block; margin-right: 48px; line-height: 60px;}
+.forcedirected-chart .forcedirected-legend-bullet{ display: inline-block; height: 20px; width: 20px; border-radius: 2px; margin-right: 8px;}
+.forcedirected-chart .legend_Links .forcedirected-legend-bullet{ display: inline-block; height: 0; border-radius: 0;width: 30px; border-top: 1px #fff;; margin-right: 8px;}
+.forcedirected-chart .legend_Links.Main .forcedirected-legend-bullet{border-top: solid 2px #fff}
+.forcedirected-chart .legend_Links.Side .forcedirected-legend-bullet{border-top: dashed 2px #fff}
+/* hide legend for movie */
+.forcedirected-chart .legend_Movie{display: none;}
+
+.forcedirected-chart .forcedirected-legend-item.วิทยาเขตปัตตานี{ font-family: 'Frijole', cursive;}
+.forcedirected-chart .forcedirected-legend-item.Iron_Man{ font-family: 'Bungee', cursive;}
+.forcedirected-chart .forcedirected-legend-item.Captain_America{ font-family: 'Squada One', cursive; }
+.forcedirected-chart .forcedirected-legend-item.Thor{ font-family: 'Fanwood Text', serif;}
+.forcedirected-chart .forcedirected-legend-item.Guardian_of_the_Galaxy{ font-family: 'Audiowide', cursive; font-weight: bold;}
+.forcedirected-chart .forcedirected-legend-item.AntMan{ font-family: 'Anton', cursive; }
+.forcedirected-chart .forcedirected-legend-item.Doctor_Strange{ font-family: 'Bigelow Rules', cursive;}
+.forcedirected-chart .forcedirected-legend-item.Black_Panter{font-family: 'Tienne', cursive; }
+.forcedirected-chart .forcedirected-legend-item.Captain_Marvel{font-family: 'Megrim', cursive;}
+.forcedirected-chart .forcedirected-legend-item.SpiderMan{font-family: 'Skranji', cursive;}
+
+.forcedirected-chart .forcedirected-legend-item.วิทยาเขตปัตตานี .forcedirected-legend-bullet {background-color: #00af3f; }
+.forcedirected-chart .forcedirected-legend-item.Iron_Man .forcedirected-legend-bullet{background-color: #fe8a00; }
+.forcedirected-chart .forcedirected-legend-item.Captain_America .forcedirected-legend-bullet{background-color: #009ede; }
+.forcedirected-chart .forcedirected-legend-item.Thor .forcedirected-legend-bullet{background-color: #fd0000; }
+.forcedirected-chart .forcedirected-legend-item.Guardian_of_the_Galaxy .forcedirected-legend-bullet{background-color: #f2e21e; }
+.forcedirected-chart .forcedirected-legend-item.AntMan .forcedirected-legend-bullet{background-color: #ff0070; }
+.forcedirected-chart .forcedirected-legend-item.Doctor_Strange .forcedirected-legend-bullet{background-color: #00b9b8; }
+.forcedirected-chart .forcedirected-legend-item.Black_Panter .forcedirected-legend-bullet{background-color: #006b86; }
+.forcedirected-chart .forcedirected-legend-item.Captain_Marvel .forcedirected-legend-bullet{background-color: #c98bba; }
+.forcedirected-chart .forcedirected-legend-item.SpiderMan .forcedirected-legend-bullet{background-color: #840135; }
 
 
 /* style for the pen, ignore it! */

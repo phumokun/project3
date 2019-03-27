@@ -5,7 +5,11 @@ angular.module('forcedirectedApp', [])
       scope: {
         links: '='
       },
-      template: '<div class="forcedirected-chart"><div id="forcedirectedPanel{{panelIndex}}"></div>',
+      template: '<div class="forcedirected-chart"><div id="forcedirectedPanel{{panelIndex}}"></div>' +
+        '<div class="forcedirected-legend">' +
+        '<div class="forcedirected-legend-block" ng-repeat="block in legendBlocks"><div class="forcedirected-legend-block-title">{{block.label}}</div>' +
+        '<span ng-repeat="n in block.items track by $index" class="forcedirected-legend-item legend_{{n.style}}"><span class="forcedirected-legend-bullet"></span><span>{{n.label}}</span>' +
+        '</div>',
       link: function(scope, elem, attr) {
         scope.panelIndex = Math.floor((Math.random() * 10000) + 1);
         var margin = {
@@ -249,7 +253,7 @@ angular.module('forcedirectedApp', [])
 
   }).controller('forcedirectedController', function($scope) {
     $scope.mcuSimple = [{source:"วิทยาเขตปัตตานี", sourceType: "Character",target:"Prince of Songkla University", targetType: "Movie",type:"Main"},
-      {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"Prince of Songkla University", targetType: "",type:"Main"},
+      {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"Prince of Songkla University", targetType: "Movie",type:"Main"},
       {source:"วิทยาเขตภูเก็ต", sourceType: "Character",target:"Prince of Songkla University", targetType: "Movie",type:"Main"},
       {source:"วิทยาเขตสุราษฎร์ธานี", sourceType: "Character",target:"Prince of Songkla University", targetType: "Movie",type:"Main"},
       {source:"วิทยาเขตตรัง", sourceType: "Character",target:"Prince of Songkla University", targetType: "Movie",type:"Main"},
@@ -269,7 +273,7 @@ angular.module('forcedirectedApp', [])
       {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"คณะศิลปศาสตร์", targetType: "Movie",type:"Side"},
       {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"คณะเศรษฐศาสตร์", targetType: "Movie",type:"Side"},
       {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"คณะนิติศาสตร์", targetType: "Movie",type:"Side"},
-      {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"คณะการแพทย์แผนไทย", targetType: "v",type:"Side"},
+      {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"คณะการแพทย์แผนไทย", targetType: "Movie",type:"Side"},
       {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"คณะเทคนิคการแพทย์", targetType: "Movie",type:"Side"},
       {source:"วิทยาเขตหาดใหญ่", sourceType: "Character",target:"โครงการจัดตั้งคณะสัตวแพทยศาสตร์", targetType: "Movie",type:"Side"},
 
