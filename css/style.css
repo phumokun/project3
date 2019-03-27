@@ -10,21 +10,31 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 .forcedirected-chart .label.Character{font-size: 32px;}
 
 
-.forcedirected-chart .source_Hulk.target_The_Incredible_Hulk{stroke: #00af3f;}
-.forcedirected-chart .source_Hulk.target_Avengers{stroke: #00af3f;}
-.forcedirected-chart .source_Hulk.target_Avengers_Age_of_Ultron{stroke: #00af3f;}
-.forcedirected-chart .source_Hulk.target_Avengers_Infinity_War{stroke: #00af3f;}
-.forcedirected-chart .source_Hulk.target_Avengers_Infinity_War_2{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Prince_of_Songkla_University{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตหาดใหญ่.target_Prince_of_Songkla_University{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตภูเก็ต.target_Prince_of_Songkla_University{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตสุราษฎร์ธา.target_Prince_of_Songkla_University{stroke: #00af3f;}
+.forcedirected-chart .source_วิทยาเขตตรัง.target_Prince_of_Songkla_University{stroke: #00af3f;}
 
 
-.forcedirected-chart .source_Iron_Man.target_Iron_Man{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Iron_Man_2{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Iron_Man_3{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers_Age_of_Ultron{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Captain_America_Civil_War{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers_Infinity_War{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_บัณฑิตวิทยาลัย{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะวิทยาศาสตร์{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะวิศวกรรมศาสตร์{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะทรัพยากรธรรมชาติ{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะอุตสาหกรรมเกษตร{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_คณะการจัดการสิ่งแวดล้อม{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Iron_Man{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Iron_Man_2{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Iron_Man_3{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Age_of_Ultron{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Captain_America_Civil_War{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
+.forcedirected-chart .sourceวิทยาเขตหาดใหญ่.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
 
 .forcedirected-chart .source_Thor.target_Thor{stroke: #fd0000;}
 .forcedirected-chart .source_Thor.target_Thor_The_Dark_world{stroke: #fd0000;}
@@ -76,8 +86,8 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 .forcedirected-chart .node { fill: #fff;stroke: #333; stroke-width: 1.5px;}
 
 /* characters */
-.forcedirected-chart .node.Hulk{ fill: #00af3f;stroke: #00af3f; }
-.forcedirected-chart .node.Character.Iron_Man{ fill: #fe8a00;stroke: #fe8a00; }
+.forcedirected-chart .node.วิทยาเขตปัตตานี{ fill: #00af3f;stroke: #00af3f; }
+.forcedirected-chart .node.Character.วิทยาเขตปัตตานี{ fill: #fe8a00;stroke: #fe8a00; }
 .forcedirected-chart .node.Character.Captain_America{ fill: #009ede;stroke: #009ede; }
 .forcedirected-chart .node.Character.Thor{ fill: #fd0000;stroke: #fd0000; }
 .forcedirected-chart .node.Character.Guardian_of_the_Galaxy{ fill: #f2e21e;stroke: #f2e21e; }
@@ -89,7 +99,7 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 
 
 /* movies */
-.forcedirected-chart .node.Movie.The_Incredible_Hulk{stroke: #00af3f; }
+.forcedirected-chart .node.Movie.วิทยาเขตปัตตานี{stroke: #00af3f; }
 .forcedirected-chart .node.Movie.Iron_Man{stroke: #fe8a00; }
 .forcedirected-chart .node.Movie.Iron_Man_2{stroke: #fe8a00; }
 .forcedirected-chart .node.Movie.Iron_Man_3{stroke: #fe8a00; }
@@ -111,7 +121,7 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 
 /* character label */
 /*.forcedirected-chart .label.Character{display: none;}*/
-.forcedirected-chart .label.Character.Hulk{ font-family: 'Frijole', cursive;}
+.forcedirected-chart .label.Character.วิทยาเขตปัตตานี{ font-family: 'Frijole', cursive;}
 .forcedirected-chart .node.Character.Iron_Man{ font-family: 'Bungee', cursive;}
 .forcedirected-chart .label.Character.Captain_America{ font-family: 'Squada One', cursive; }
 .forcedirected-chart .label.Character.Thor{ font-family: 'Fanwood Text', serif;}
