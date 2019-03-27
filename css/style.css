@@ -9,117 +9,70 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 .forcedirected-chart .label.Character{font-size: 32px;}
 
 
-.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Prince_of_Songkla_University{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers_Age_of_Ultron{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers_Infinity_War{stroke: #00af3f;}
-.forcedirected-chart .source_วิทยาเขตปัตตานี.target_Avengers_Infinity_War_2{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Bachelor_of_Nursing_Science{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Faculty_of_Education{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Faculty_of_Humanities_and_Social_Sciences{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Faculty_of_Science_and_Technology{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Faculty_of_Fine_and_Applied_Arts{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Com_Sci{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_Faculty_of_Political_Science{stroke: #00af3f;}
+.forcedirected-chart .source_Pattani.target_College_of_Islamic_Studies{stroke: #00af3f;}
 
 
-.forcedirected-chart .source_Iron_Man.target_Iron_Man{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Iron_Man_2{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Iron_Man_3{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers_Age_of_Ultron{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Captain_America_Civil_War{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers_Infinity_War{stroke: #fe8a00;}
-.forcedirected-chart .source_Iron_Man.target_Avengers_Infinity_War_2{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Graduate_School{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Science{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Engineering{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Natural_Resources{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Agro_Industry{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Environment_Management{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Medicine{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Nursing{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_International_College_Hatyai_Campus{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Dentistry{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Pharmaceutical_Sciences{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Management_Sciences{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Liberal_Arts{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Bachelor_of_Economics{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Law{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Traditional{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Bachelor_of_Science{stroke: #fe8a00;}
+.forcedirected-chart .source_Hatyai.target_Faculty_of_Veterinary_Science{stroke: #fe8a00;}
 
-.forcedirected-chart .source_Thor.target_Thor{stroke: #fd0000;}
-.forcedirected-chart .source_Thor.target_Thor_The_Dark_world{stroke: #fd0000;}
-.forcedirected-chart .source_Thor.target_Thor_Ragnarok{stroke: #fd0000;}
-.forcedirected-chart .source_Thor.target_Avengers{stroke: #fd0000;}
-.forcedirected-chart .source_Thor.target_Avengers_Age_of_Ultron{stroke: #fd0000;}
-.forcedirected-chart .source_Thor.target_Avengers_Infinity_War{stroke: #fd0000;}
-.forcedirected-chart .source_Thor.target_Avengers_Infinity_War_2{stroke: #fd0000;}
+.forcedirected-chart .source_Phuket.target_Faculty_of_Hospitality_and_Tourism{stroke: #fd0000;}
+.forcedirected-chart .source_Phuket.target_Faculty_of_Technology_and_Environment{stroke: #fd0000;}
+.forcedirected-chart .source_Phuket.target_College_of_Computing{stroke: #fd0000;}
+.forcedirected-chart .source_Phuket.target_Faculty_of_International_Studies{stroke: #fd0000;}
 
-.forcedirected-chart .source_Captain_America.target_Captain_America_The_first_avenger{stroke: #009ede;}
-.forcedirected-chart .source_Captain_America.target_Captain_America_The_winter_soldier{stroke: #009ede;}
-.forcedirected-chart .source_Captain_America.target_Captain_America_Civil_War{stroke: #009ede;}
-.forcedirected-chart .source_Captain_America.target_Avengers{stroke: #009ede;}
-.forcedirected-chart .source_Captain_America.target_Avengers_Age_of_Ultron{stroke: #009ede;}
-.forcedirected-chart .source_Captain_America.target_Avengers_Infinity_War{stroke: #009ede;}
-.forcedirected-chart .source_Captain_America.target_Avengers_Infinity_War_2{stroke: #009ede;}
+.forcedirected-chart .source_Suratthani.target_Faculty_of_Science_and_Industrial_Technology{stroke: #009ede;}
 
-.forcedirected-chart .source_Guardian_of_the_Galaxy.target_Guardian_of_the_Galaxy{stroke: #f2e21e; }
-.forcedirected-chart .source_Guardian_of_the_Galaxy.target_Guardian_of_the_Galaxy_2{stroke: #f2e21e; }
-.forcedirected-chart .source_Guardian_of_the_Galaxy.target_Avengers_Infinity_War{stroke: #f2e21e;}
-.forcedirected-chart .source_Guardian_of_the_Galaxy.target_Avengers_Infinity_War_2{stroke: #f2e21e;}
+.forcedirected-chart .source_Trang.target_Faculty_of_Commerce_and_Management{stroke: #f2e21e; }
+.forcedirected-chart .source_Trang.target_Faculty_of_Architecture{stroke: #f2e21e; }
 
-.forcedirected-chart .source_AntMan.target_AntMan{stroke: #ff0070;}
-.forcedirected-chart .source_AntMan.target_AntMan_and_the_Wasp{stroke: #ff0070;}
-.forcedirected-chart .source_AntMan.target_Captain_America_Civil_War{stroke: #ff0070;}
-.forcedirected-chart .source_AntMan.target_Avangers_Infinity_War{stroke: #ff0070;}
-.forcedirected-chart .source_AntMan.target_Avangers_Infinity_War_2{stroke: #ff0070;}
-
-.forcedirected-chart .source_Doctor_Strange.target_Doctor_Strange{stroke: #00b9b8;}
-.forcedirected-chart .source_Doctor_Strange.target_Avengers_Infinity_War{stroke: #00b9b8;}
-.forcedirected-chart .source_Doctor_Strange.target_Avengers_Infinity_War_2{stroke: #00b9b8;}
-
-.forcedirected-chart .source_Black_Panter.target_Black_Panter{stroke: #006b86;}
-.forcedirected-chart .source_Black_Panter.target_Captain_America_Civil_War{stroke: #006b86;}
-.forcedirected-chart .source_Black_Panter.target_Avengers_Infinity_War{stroke: #006b86;}
-.forcedirected-chart .source_Black_Panter.target_Avengers_Infinity_War_2{stroke: #006b86;}
-
-.forcedirected-chart .source_Captain_Marvel.target_Captain_Marvel{stroke: #c98bba;}
-.forcedirected-chart .source_Captain_Marvel.target_Guardian_of_the_Galaxy_2{stroke: #c98bba;}
-.forcedirected-chart .source_Captain_Marvel.target_Avengers_Infinity_War{stroke: #c98bba;}
-.forcedirected-chart .source_Captain_Marvel.target_Avengers_Infinity_War_2{stroke: #c98bba;}
-
-.forcedirected-chart .source_SpiderMan.target_SpiderMan_Homecoming{stroke: #840135;}
-.forcedirected-chart .source_SpiderMan.target_SpiderMan_Homecoming_2{stroke: #840135;}
-.forcedirected-chart .source_SpiderMan.target_Captain_America_Civil_War{stroke: #840135;}
-.forcedirected-chart .source_SpiderMan.target_Avengers_Infinity_War{stroke: #840135;}
-.forcedirected-chart .source_SpiderMan.target_Avengers_Infinity_War_2{stroke: #840135;}
 
 .forcedirected-chart .node { fill: #fff;stroke: #333; stroke-width: 1.5px;}
 
 /* characters */
-.forcedirected-chart .node.วิทยาเขตปัตตานี{ fill: #00af3f;stroke: #00af3f; }
-.forcedirected-chart .node.Character.Iron_Man{ fill: #fe8a00;stroke: #fe8a00; }
-.forcedirected-chart .node.Character.Captain_America{ fill: #009ede;stroke: #009ede; }
-.forcedirected-chart .node.Character.Thor{ fill: #fd0000;stroke: #fd0000; }
-.forcedirected-chart .node.Character.Guardian_of_the_Galaxy{ fill: #f2e21e;stroke: #f2e21e; }
-.forcedirected-chart .node.Character.AntMan{ fill: #ff0070;stroke: #ff0070; }
-.forcedirected-chart .node.Character.Doctor_Strange{ fill: #00b9b8;stroke: #00b9b8; }
-.forcedirected-chart .node.Character.Black_Panter{ fill: #006b86;stroke: #006b86; }
-.forcedirected-chart .node.Character.Captain_Marvel{ fill: #c98bba;stroke: #c98bba; }
-.forcedirected-chart .node.Character.SpiderMan{ fill: #840135;stroke: #840135; }
+.forcedirected-chart .node.Pattani{ fill: #00af3f;stroke: #d4b818; }
+.forcedirected-chart .node.Character.Hatyai{ fill: #fe8a00;stroke: #fe8a00; }
+.forcedirected-chart .node.Character.Phuket{ fill: #009ede;stroke: #009ede; }
+.forcedirected-chart .node.Character.Suratthani{ fill: #fd0000;stroke: #fd0000; }
+.forcedirected-chart .node.Character.Trang{ fill: #f2e21e;stroke: #f2e21e; }
+
 
 
 /* movies */
-.forcedirected-chart .node.Movie.The_Incredible_Hulk{stroke: #00af3f; }
-.forcedirected-chart .node.Movie.Iron_Man{stroke: #fe8a00; }
-.forcedirected-chart .node.Movie.Iron_Man_2{stroke: #fe8a00; }
-.forcedirected-chart .node.Movie.Iron_Man_3{stroke: #fe8a00; }
-.forcedirected-chart .node.Movie.Thor{stroke: #fd0000; }
-.forcedirected-chart .node.Movie.Thor_The_Dark_world{stroke: #fd0000; }
-.forcedirected-chart .node.Movie.Thor_Ragnarok{stroke: #fd0000; }
-.forcedirected-chart .node.Movie.Captain_America_The_first_avenger{stroke: #009ede; }
-.forcedirected-chart .node.Movie.Captain_America_The_winter_soldier{stroke: #009ede; }
-.forcedirected-chart .node.Movie.Captain_America_Civil_War{stroke: #009ede; }
-.forcedirected-chart .node.Movie.Guardian_of_the_Galaxy{stroke: #f2e21e; }
-.forcedirected-chart .node.Movie.Guardian_of_the_Galaxy_2{stroke: #f2e21e; }
-.forcedirected-chart .node.Movie.AntMan{stroke: #ff0070; }
-.forcedirected-chart .node.Movie.AntMan_and_the_Wasp{stroke: #ff0070;}
-.forcedirected-chart .node.Movie.Doctor_Strange{ stroke: #00b9b8; }
-.forcedirected-chart .node.Movie.Black_Panter{ stroke: #006b86; }
-.forcedirected-chart .node.Movie.Captain_Marvel{ stroke: #c98bba; }
-.forcedirected-chart .node.Movie.SpiderMan_Homecoming{stroke: #840135; }
-.forcedirected-chart .node.Movie.SpiderMan_Homecoming_2{stroke: #840135; }
+.forcedirected-chart .node.Movie.Hatyai{stroke: #00af3f; }
+.forcedirected-chart .node.Movie.Phuket{stroke: #fe8a00; }
+.forcedirected-chart .node.Movie.Suratthani{stroke: #fe8a00; }
+.forcedirected-chart .node.Movie.Trang{stroke: #fe8a00; }
 
 /* character label */
 /*.forcedirected-chart .label.Character{display: none;}*/
-.forcedirected-chart .label.Character.วิทยาเขตปัตตานี{ font-family: 'Frijole', cursive;}
-.forcedirected-chart .node.Character.Iron_Man{ font-family: 'Bungee', cursive;}
-.forcedirected-chart .label.Character.Captain_America{ font-family: 'Squada One', cursive; }
-.forcedirected-chart .label.Character.Thor{ font-family: 'Fanwood Text', serif;}
-.forcedirected-chart .label.Character.Guardian_of_the_Galaxy{ font-family: 'Audiowide', cursive; font-weight: bold;}
-.forcedirected-chart .label.Character.AntMan{ font-family: 'Anton', cursive; }
-.forcedirected-chart .label.Character.Doctor_Strange{ font-family: 'Bigelow Rules', cursive;}
-.forcedirected-chart .label.Character.Black_Panter{font-family: 'Tienne', cursive; }
-.forcedirected-chart .label.Character.Captain_Marvel{font-family: 'Megrim', cursive;}
-.forcedirected-chart .label.Character.SpiderMan{font-family: 'Skranji', cursive;}
+.forcedirected-chart .label.Character.Pattani{ font-family: 'Frijole', cursive;}
+.forcedirected-chart .node.Character.Hatyai{ font-family: 'Bungee', cursive;}
+.forcedirected-chart .label.Character.Phuket{ font-family: 'Squada One', cursive; }
+.forcedirected-chart .label.Character.Suratthani{ font-family: 'Fanwood Text', serif;}
+.forcedirected-chart .label.Character.Trang{ font-family: 'Audiowide', cursive; font-weight: bold;}
 
 /* legend */
 .forcedirected-chart .forcedirected-legend{font-size: 22px;padding: 1em; clear: both; overflow: hidden; }
@@ -133,27 +86,17 @@ body{color: #fff; background-color: #111; font-family: "Oxygen";}
 /* hide legend for movie */
 .forcedirected-chart .legend_Movie{display: none;}
 
-.forcedirected-chart .forcedirected-legend-item.วิทยาเขตปัตตานี{ font-family: 'Frijole', cursive;}
-.forcedirected-chart .forcedirected-legend-item.Iron_Man{ font-family: 'Bungee', cursive;}
-.forcedirected-chart .forcedirected-legend-item.Captain_America{ font-family: 'Squada One', cursive; }
-.forcedirected-chart .forcedirected-legend-item.Thor{ font-family: 'Fanwood Text', serif;}
-.forcedirected-chart .forcedirected-legend-item.Guardian_of_the_Galaxy{ font-family: 'Audiowide', cursive; font-weight: bold;}
-.forcedirected-chart .forcedirected-legend-item.AntMan{ font-family: 'Anton', cursive; }
-.forcedirected-chart .forcedirected-legend-item.Doctor_Strange{ font-family: 'Bigelow Rules', cursive;}
-.forcedirected-chart .forcedirected-legend-item.Black_Panter{font-family: 'Tienne', cursive; }
-.forcedirected-chart .forcedirected-legend-item.Captain_Marvel{font-family: 'Megrim', cursive;}
-.forcedirected-chart .forcedirected-legend-item.SpiderMan{font-family: 'Skranji', cursive;}
+.forcedirected-chart .forcedirected-legend-item.Pattani{ font-family: 'Frijole', cursive;}
+.forcedirected-chart .forcedirected-legend-item.Hatyai{ font-family: 'Bungee', cursive;}
+.forcedirected-chart .forcedirected-legend-item.Phuket{ font-family: 'Squada One', cursive; }
+.forcedirected-chart .forcedirected-legend-item.Suratthani{ font-family: 'Fanwood Text', serif;}
+.forcedirected-chart .forcedirected-legend-item.Trang{ font-family: 'Audiowide', cursive; font-weight: bold;}
 
-.forcedirected-chart .forcedirected-legend-item.วิทยาเขตปัตตานี .forcedirected-legend-bullet {background-color: #00af3f; }
-.forcedirected-chart .forcedirected-legend-item.Iron_Man .forcedirected-legend-bullet{background-color: #fe8a00; }
-.forcedirected-chart .forcedirected-legend-item.Captain_America .forcedirected-legend-bullet{background-color: #009ede; }
-.forcedirected-chart .forcedirected-legend-item.Thor .forcedirected-legend-bullet{background-color: #fd0000; }
-.forcedirected-chart .forcedirected-legend-item.Guardian_of_the_Galaxy .forcedirected-legend-bullet{background-color: #f2e21e; }
-.forcedirected-chart .forcedirected-legend-item.AntMan .forcedirected-legend-bullet{background-color: #ff0070; }
-.forcedirected-chart .forcedirected-legend-item.Doctor_Strange .forcedirected-legend-bullet{background-color: #00b9b8; }
-.forcedirected-chart .forcedirected-legend-item.Black_Panter .forcedirected-legend-bullet{background-color: #006b86; }
-.forcedirected-chart .forcedirected-legend-item.Captain_Marvel .forcedirected-legend-bullet{background-color: #c98bba; }
-.forcedirected-chart .forcedirected-legend-item.SpiderMan .forcedirected-legend-bullet{background-color: #840135; }
+.forcedirected-chart .forcedirected-legend-item.Pattani .forcedirected-legend-bullet {background-color: #00af3f; }
+.forcedirected-chart .forcedirected-legend-item.Hatyai .forcedirected-legend-bullet{background-color: #fe8a00; }
+.forcedirected-chart .forcedirected-legend-item.Phuket .forcedirected-legend-bullet{background-color: #009ede; }
+.forcedirected-chart .forcedirected-legend-item.Suratthani .forcedirected-legend-bullet{background-color: #fd0000; }
+.forcedirected-chart .forcedirected-legend-item.Trang .forcedirected-legend-bullet{background-color: #f2e21e; }
 
 
 /* style for the pen, ignore it! */
